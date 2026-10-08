@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS contacts (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 INSERT INTO users (username, email, password) VALUES 
-('admin', 'admin@example.com', '$2y$10$lNMx9BSG7OgDNGYBWD69zu.i1aLLioqKGNWGXFb2JNGxDoH33o3TW');
+('admin', 'admin@example.com', '');
 
 INSERT INTO dishes (name, price, calories, cuisine_type, description, image) VALUES 
 ('كبسة لحم شرقية', 45.00, 900, 'شرقي', 'كبسة لحم شرقية شهية مع أرز طويل الحبة', 'assets/images/1.jpg'),
